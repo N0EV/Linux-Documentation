@@ -1,11 +1,11 @@
 #!/bin/bash
-echo "¿ Cual es tu nombre ?"
-read nom
+read nombre
 echo "¿ Cual es tu apellido ?"
-read ape
+read apellido
 echo "¿ Cual es tu año de nacimiento ?"
-read ye
+read anio
 
 anio=$(date +"%Y")
 edad=$((anio-year))
-echo "Hola $nom $ape y tu edad es: $edad, Biemvenido a Ubuntu"
+echo "Hola $nombre $apellido y tu edad es: $edad, Biemvenido a Ubuntu"
+
