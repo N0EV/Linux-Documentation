@@ -1,7 +1,11 @@
 #!/bin/bash
+# Aqui le estos solicitando al usuario dos numeros distintos y luego
+# que nos diga que operacion quiere hacer
 read -p "Dame tu primer numero: " num1
 read -p "Dame tu segundo numero: " num2
 read -p "Que operacion quiere realizar? (resta,suma,multiplicacion,division): " respuesta
+# Aqui lo que decimos es en caso de la operacion que eliga antes
+# haremos una cosa u otra
 case $respuesta in
 	resta)
 		rst=$(($num1 - $num2));;
@@ -12,4 +16,5 @@ case $respuesta in
 	multiplicacion)
 		rst=$(($num1 * $num2));;
 esac
+# Cuando haya acabado le decimos el resultado final
 echo "Tu resultado es $rst"
