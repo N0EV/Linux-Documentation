@@ -1,4 +1,5 @@
 #!/bin/bash
+# Aqui estamos comprobando que el usuario no ha puesto
 if [[ $# -ne 1 && -ne 2 ]]; then
 	echo "Uso: $0 <nombre fichero>"
 	echo "Uso: $0 <nombre origen> <nombre destino>"
