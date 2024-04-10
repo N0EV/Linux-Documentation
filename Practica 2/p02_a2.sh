@@ -6,7 +6,7 @@ cd ~/Descargas
 # otro dato es que en linux hay una variable que es $HOME que es el home
 # del usuario que lo este usando
 # Aqui vamos a coger todo lo que haya en descargas dado que hemos ido antes
-for [[ archivo in * ]]; do
+for  archivo in *; do
 	extension=${archivo##*.}
 	case $extension in
 		jpg|jpeg|png|JPG|JPEG|PNG)
