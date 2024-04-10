@@ -9,9 +9,11 @@ cd ~/Descargas
 for [[ archivo in * ]]; do
 	extension=${archivo##*.}
 	case $extension in
-		jpg|jpeg|png)
+		jpg|jpeg|png|JPG|JPEG|PNG)
 			mv $archivo ~/Imágenes;;
-		mp3|mp4)
+		mp3|mp4|MP3|MP4)
 			mv $archivo ~/Música;;
+		*)
+			mv $archivo ~/Documentos;;
 	esac
 done
