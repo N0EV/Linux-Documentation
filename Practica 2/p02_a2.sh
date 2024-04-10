@@ -6,6 +6,7 @@ cd ~/Descargas
 # otro dato es que en linux hay una variable que es $HOME que es el home
 # del usuario que lo este usando
 # Aqui vamos a coger todo lo que haya en descargas dado que hemos ido antes
+# Aqui como 
 for  archivo in *; do
 	extension=${archivo##*.}
 	case $extension in
@@ -14,6 +15,12 @@ for  archivo in *; do
 		mp3|mp4|MP3|MP4)
 			mv $archivo ~/Música;;
 		*)
+# Si tenemos la variable para la direccion otros podemos poner un
+# if [[ ! -d $variableparaotros ]]; then
+# 	mkdir $variableparaotros
+# fi
 			mv $archivo ~/Documentos;;
 	esac
 done
+
+echo "Archivos ordenados correctamente"
