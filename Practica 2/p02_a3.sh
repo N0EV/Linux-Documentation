@@ -7,10 +7,10 @@ for archivo in *; do
 	anio=$(date -d "$fecha_creacion" "+%Y")
 	mes=$(date -d "$fecha_creacion" "+%m")
 	dirdestino=$anio"_"$mes
-	if [[ -d $dirdestino ]]; then
-		mv $archivo $dirdestino
-	else
-		mkdir $dirdestino
-		mv $archivo $dirdestino
-	fi
+		if [[ -d $dirdestino ]]; then
+			mv $archivo $dirdestino
+		else
+			mkdir $dirdestino
+		fi
+	mv $archivo $dirdestino
 done
