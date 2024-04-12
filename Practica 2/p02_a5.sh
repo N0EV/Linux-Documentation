@@ -19,4 +19,4 @@ else
 	exit 1
 fi
 #Despues le imprimo el numero de palabras
-echo "En este fichero hay $npalabras palabras"
+echo "En este \"$archivo\" fichero hay $npalabras palabras"
