@@ -1,0 +1,5 @@
+#!/bin/bash
+# Lo de arriba se pone siempre para indicar que es para el bash
+
+# Esto es un comentario de una linea
+# Siempre que se quiera comentar se tiene que poner "#"
