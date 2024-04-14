@@ -1,4 +1,7 @@
 #!/bin/bash
+if [[ $1 -eq 0 ]]; then
+	echo "Uso: $0 <usuarios>
+fi
 echo "Usuario: Fecha de cambio de contraseña"
 fecha_inicio="1970-01-01"
 contenido_shadow=$(sudo cat /etc/shadow)
