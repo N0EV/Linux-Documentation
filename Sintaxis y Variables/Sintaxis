@@ -1,16 +1,59 @@
-##-----------------------------INICIO-------------------------------
+###########################INICIO###################################
 #!/bin/bash
 
 # Lo de arriba se pone siempre para indicar que es para el bash
 
-##-------------------- COMENTARIOS ----------------------------------
+########################## COMENTARIOS #############################
 
 #----------UNA LINEA--------
 
 # Esto es un comentario de una linea
 # Siempre que se quiera comentar se tiene que poner "#"
 
-##---------------------- VARIABLES -----------------------------------
+#--------- VARIAS LINEAS ----------
+<<comentario
+Esto que esta aqui dentro es un comentario
+comentario
+
+:	'
+Este es otro tipo de comentario
+de varias lineas
+'
+######################## VARIABLES ##################################
+
+#------VARIABLES--------
+
+-------------TEXTO------------
+variable="Hola Mundo"
+
+echo variable #Esto lo que hara es sacar solo "variable"
+
+echo $variable #Esto sacara hola mundo
+-----------------------------------------------
+-----------NUMERO--------------
+
+numero=12 #Esto es una variable que se denomina numero
+flotante=12.5 #Esto tambien es un numero pero a ser decimal se le llama flotante
+------------------------------------------------
+-----------BOOLEANOS------------------
+
+booleano=true #Estos son booleanos y siempre son o true o fale
+booleano=false #Estos son booleanos y siempre son false o true
+# Es decir que a lo que denominamos booleano es a un valor o true o false
+------------------------------------------------
+
+-------------CAMBIAR VALOR DE UNA VARIABLE-----
+# Para poder hacer eso simplemente ponemos el nombre de la viriable y le cambiamos
+# el valor que tenga puesto por ejemplo: variable="Mundo Hola"
+
+---------------IMPORTANTE---------------
+# Las variables no pueden empezar por numeros
+-------------------------------------------------------------
+#------CONSTANTES---------------
+# Las constantes se hacen poniendo todo en mayusculas o con declare ejemplos:
+CONSTANTE="hola Mundo"
+
+declare -r CONSTANTE="hola mundo"
 
 #------STRING-----------
 variable="hola"
