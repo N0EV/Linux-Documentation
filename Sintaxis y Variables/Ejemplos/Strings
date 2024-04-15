@@ -1,0 +1,24 @@
+#!/bin/bash
+uno="Hola"
+dos="Mundo"
+
+echo $uno $dos
+
+tres=$uno
+tres+=$dos
+
+echo $tres
+
+stringlargo="Esto es una cadena de texto larga"
+
+echo "${stringlargo} ${#stringlargo}"
+
+echo "${stringlargo:8}"
+echo "${stringlargo:5:6}"
+echo "${stringlargo::7}"
+
+echo "${stringlargo:(-5)}"
+
+echo "${stringlargo%???}"
+
+echo "${stringlargo#???}"

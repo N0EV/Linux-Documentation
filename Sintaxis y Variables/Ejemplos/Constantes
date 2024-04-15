@@ -1,0 +1,14 @@
+#!/bin/bash
+
+variable="Hola Mundo"
+variable="Chao Mundo"
+
+CONSTANTE="Valor"
+
+declare -r HOLA="hola mundo"
+echo $variable $CONSTANTE $HOLA
+
+HOLA="intento cambiar HOLA"
+CONSTANTE="cambio LA CONSTANTE"
+
+echo $variable $CONSTANTE $HOLA
