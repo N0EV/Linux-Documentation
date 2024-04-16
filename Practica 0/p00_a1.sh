@@ -7,7 +7,7 @@ echo "¿ Cual es tu apellido ?"
 read apellido
 # Aqui lo mismo pero con el año
 echo "¿ Cual es tu año de nacimiento ?"
-read anio
+read year
 # Aqui calculamos los ñaos que tiene el usuario apartir de el año de nacimiento
 anio=$(date +"%Y")
 edad=$((anio-year))
