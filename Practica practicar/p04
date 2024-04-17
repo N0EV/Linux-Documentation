@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [[ $# -ne 1 ]]; then
+	echo "Uso: $0 <nombre del directorio>"
+	exit 1
+fi
+
+ruta=$1
+i=0
+
+if [[ ! -d $ruta ]]; then
+	echo "Este directorio no existe"
+	exit 1
+fi
+cd $ruta
+
+for archivo in *.txt; do
+	if [[ -r $archivo ]]; then
+		((i++))
+	fi
+done
+
+echo "Los archivos en la ruta $ruta tienen los siguientes archivos de lectura: $i "
