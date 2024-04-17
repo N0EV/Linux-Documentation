@@ -1,12 +1,11 @@
 #!/bin/bash
 
-read -p "Quer quiere para comer (pizza/Hamburguesa)? " resp
+read -p "Que quiere para comer (Pizza o Hamburguesa)? " resp
 
 if [[ $resp = "pizza" || $resp = "Pizza" ]]; then
 	echo "Vamos al dominos"
-else
-	if [[ $resp = "hamburguesa" || $rep = "Hamburguesa" ]]; then
+elif [[ $resp = "hamburguesa" || $resp = "Hamburguesa" ]]; then
 	echo "Vamos al burguer"
-	fi
+else
+	echo "ponga algo legible"
 fi
-
