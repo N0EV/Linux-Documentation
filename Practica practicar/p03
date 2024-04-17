@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [[ $# -eq 0 ]]; then
+	echo "Uso: $0 <elige Hamburguesa o pizza>"
+	exit 1
+fi
+
+sitio=$1
+case $sitio in
+	hamburguesa|Hamburguesa)
+		echo "burguer, macd";;
+	pizza|Pizza)
+		echo "Dominos, Telepbasura";;
+	*)
+		echo "Elige una opción"
+		echo "Uso: $0 <elige Hamburguesa o pizza>";;
+esac
