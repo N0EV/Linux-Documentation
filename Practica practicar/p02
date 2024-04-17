@@ -9,3 +9,11 @@ elif [[ $resp = "hamburguesa" || $resp = "Hamburguesa" ]]; then
 else
 	echo "ponga algo legible"
 fi
+
+
+
+#then
+#	if [[ $reps = "hamburguesa"  || $reps = "Hamburguesa" ]]; then
+#		echo "Vamos al burguer"
+#	fi
+#fi
