@@ -61,3 +61,5 @@ echo $variable
 
 #-----BOOLEAN (BOOLEANO)-------
 
+variable=true
+variable=false
