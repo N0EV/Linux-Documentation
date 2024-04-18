@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Este comentario no se muestra
+
+<< comentario
+Podemos escribir comentarios todos los que
+queramos
+comentario
+
+
+:	'
+este mensaje no se muestra
+'
+echo "este si"
