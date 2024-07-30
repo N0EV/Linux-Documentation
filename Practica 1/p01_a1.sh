@@ -1,3 +1,7 @@
+#---------------------- Enunciado ---------------------------------------
+#Pasados dos valores por parámetro, debemos indicar cuál de los dos es mayor o si son iguales.
+#------------------------------------------------------------------------
+
 #!/bin/bash
 # $1 y $2 se recongen justo despues de hacer bash y el fichero
 # Aqui estos indicando que $1 y $2 que son dos variables
