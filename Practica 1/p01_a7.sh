@@ -1,3 +1,9 @@
+#------------------------- Enunciado --------------------------
+#Escribir un script que acepte como parámetro una lista de rutas de ficheros, 
+#compruebe que son ficheros normales y les tiene que dar el permiso de ejecución para el propietario. 
+#De los que no sean fichero debe mostrar un mensaje indicándolo.
+#--------------------------------------------------------------
+
 #!/bin/bash
 # Aqui lo que se hace es recoger la variable fichero y coger todo
 for fichero in "$@"; do
