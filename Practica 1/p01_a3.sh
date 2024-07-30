@@ -12,11 +12,6 @@
 # * Y visualizar el contenido de “fich” de manera paginada.
 #---------------------------------------------------------------
 
-
-
-
-
-
 #!/bin/bash
 # Aqui estamos comprobando que el usuario nos ha puesto
 # dos ficheros
