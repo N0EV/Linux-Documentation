@@ -1,3 +1,10 @@
+#----------------------------- Enunciado ---------------------------
+#Script que copia un fichero en otro, controlando que el número de argumentos sea exactamente dos 
+#y si no es así indicar como se utiliza el script y salir del programa con código error 1. 
+#Los dos ficheros deben existir previamente. 
+#Nos deberá preguntar si queremos sobrescribir el segundo fichero dependiendo de nuestra respuesta lo hará o no.
+#-------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui lo que estamos haciendo es comprobando que el usuario
 # nos a pasado dos parametros
