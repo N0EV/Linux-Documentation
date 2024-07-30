@@ -1,3 +1,8 @@
+#--------------------- Enunciado -------------------------
+# Saludo personalizado. Escribe un script que solicite al usuario su nombre, apellido y fecha de nacimiento y 
+# luego imprima un saludo personalizado calculando su edad.
+#---------------------------------------------------------
+
 #!/bin/bash
 # Aqui se le pide al usuario su nombre y se recoge en nombre con read
 echo "¿ Cual es tu nombre ?"
