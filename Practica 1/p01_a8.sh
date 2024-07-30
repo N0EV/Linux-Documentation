@@ -1,3 +1,12 @@
+#---------------------------------- Enunciado -------------------------------
+#Crear un script que cree el siguiente menú de manera repetitiva, solicite una opción y dependiendo de esta realice la acción correspondiente.
+#
+# MENU 
+# 	1- Conexiones actuales.
+#	2- Contenido del directorio actual.
+#	3- Limpiar Pantalla y salir del menú
+#----------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui lo que estamos haciendo es que mientras el valor sea verdadero que haga lo siguiente
 while true; do
