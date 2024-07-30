@@ -1,3 +1,8 @@
+#------------------------------- Enunciado ----------------------
+#Recibe un nombre de archivo como parámetro e indica mediante un mensaje 
+#si el archivo es de: lectura, escritura, y/o ejecutable por el propietario.
+#----------------------------------------------------------------
+
 #!/bin/bash
 # Aqui lo que estamos comprobando es que el usuario nos a
 # puesto solo un valor para ejecutar el bash
