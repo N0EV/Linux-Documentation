@@ -1,3 +1,8 @@
+#------------------------------------- Enunciado ------------------------------
+#Calculadora simple. Crea un script que solicite al usuario dos números y 
+#luego le pregunte qué operación desea realizar (suma, resta, multiplicación, división) y muestre el resultado.
+#------------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui le estos solicitando al usuario dos numeros distintos y luego
 # que nos diga que operacion quiere hacer
