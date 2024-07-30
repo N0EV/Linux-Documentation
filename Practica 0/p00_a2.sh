@@ -1,3 +1,7 @@
+#-------------------------- Enunciado ----------------------
+#Script que solicite dos números por teclado y calcule su diferencia mostrándola por pantalla.
+#------------------------------------------------------------
+
 #!/bin/bash
 # Aqui le pedimos al usuario que nos pase un numero
 echo "Me puedes pasar los numeros porfa:"
