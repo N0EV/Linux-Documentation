@@ -1,3 +1,8 @@
+#-------------------------------- Enunciado -------------------------------
+#Lista de la compra. Escribe un script que solicite al usuario una lista de elementos de la compra 
+#(por ejemplo, productos de supermercado) y luego imprima la lista.
+#--------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui le decimos al usuario que quiere apuntar para la lista de la compra
 echo "Que cosas quiere añadir a su lista de la compra? "
