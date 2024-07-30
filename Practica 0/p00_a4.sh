@@ -1,3 +1,7 @@
+#------------------------------ Enunciado --------------------------
+#Verificación de contraseña. Crea un script que solicite al usuario una contraseña y la verifique. Si la contraseña es "secreto234.", 
+#muestra un mensaje indicando que el acceso está permitido; de lo contrario, muestra un mensaje de error.
+#--------------------------------------------------------------------
 #!/bin/bash
 # Aqui le etamos pidiendo a el usuario la conntraseña
 # y la guardamos en la variable secreto
