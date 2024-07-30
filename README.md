@@ -1,7 +1,7 @@
-<h1 align="center">
+# Bash Scripting
 
-  [![Mis herramientas](https://skillicons.dev/icons?i=bash,)](https://skillicons.dev) 
-  BASH SCRIPTING
-</h1>
-<p>Esto solo es un trabajo para clase pero el que quiera contribuir que lo haga en otra carpeta porfavor</p>
-<p>Todavia estoy empezando con esto; asique paciencia</p>
+Ficheros .sh para linux, este repositorio es un recopilatorio de diferentes ejercicios resueltos. 
+En cada ejercicio viene comentado para que se sepa que hace.
+
+>[!Note]
+>Este tipo de ficheros sirve para ejecutar distintos comandos en el sistema operativo linux como si estuvieras haciendolo en la cmd o shell.
