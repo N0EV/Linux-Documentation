@@ -1,3 +1,9 @@
+#--------------------------------- Enunciado ------------------------------
+#Borrar un fichero pasado por parámetro, pero primero lo copiamos al directorio “tmp” por si hubiera que recuperarlo. 
+#Controlar que el número de parámetros proporcionados es correcto
+#y si no es así indicar como se utiliza el script y salir del programa con código error 1. 
+#--------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui lo que estamos es comprobando qwe el usuario nos a puesto
 # un parametro que seria el fichero
