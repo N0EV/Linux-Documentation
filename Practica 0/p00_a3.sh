@@ -1,3 +1,8 @@
+#-------------------------------- Enunciado ------------------------------
+#Conversión de unidades. Escribe un script que solicite al usuario una temperatura en grados Celsius
+#y luego convierta esta temperatura a grados Fahrenheit y la imprima.
+#-------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui estamos pidiendo al usuario que cuantos ºC  quiere pasar a celsius
 # y lo guardamos en una variable llamada celsius
