@@ -1,3 +1,22 @@
+#-------------------------- Enunciado --------------------------
+#Crear un script que haga lo siguiente pasándole dos argumentos por parámetro directorio y fichero, 
+# si el número de argumentos proporcionado no es igual a 2 entonces imprimir un mensaje de uso correcto del script y salir 
+#con código error 1.
+#
+#Si el número de argumentos es correcto: 
+#
+# * Crear el directorio “dir1” mediante una estructura condicional que saque un mensaje de error por pantalla si dicho directorio ya existe.  
+# * Cambiar al directorio “dir1”.  
+# * Crear el fichero “fich” con los nombres de los archivos del directorio “/dev” que empiecen por “t” y acaben en cualquier número.  
+# * Añadir a dicho fichero el contenido del fichero “/etc/passwd”.
+# * Y visualizar el contenido de “fich” de manera paginada.
+#---------------------------------------------------------------
+
+
+
+
+
+
 #!/bin/bash
 # Aqui estamos comprobando que el usuario nos ha puesto
 # dos ficheros
