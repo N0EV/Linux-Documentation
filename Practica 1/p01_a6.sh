@@ -1,3 +1,10 @@
+#--------------------------- Enunciado ------------------------------
+#Genere un script que pueda recibir como parámetros uno o dos nombres de archivo. 
+#Si recibe uno, debe permitir al usuario añadir texto a ese archivo de modo interactivo 
+#(leyendo una línea de la entrada estándar y añadiéndola al final del archivo, no con un editor). 
+#Si son dos, añade al segundo todo el contenido del primero.
+#--------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui estamos comprobando que el usuario no ha puesto 1 porque necesitamos dos parametros
 # minimo o que no a puesto 2 por que necesitamos 3 minimo
