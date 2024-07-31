@@ -1,3 +1,8 @@
+#------------------------------ Enunciado ----------------------------------
+#Listar documentos y dependiendo de la fecha de creación de ficheros crear 
+#un directorio de nombre año_mes y mover allí los ficheros.
+#---------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui nos movemos a la carpeta documentos en home
 cd ~/Documentos
