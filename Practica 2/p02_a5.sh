@@ -1,3 +1,10 @@
+#-------------------------------- Enunciado --------------------------------
+#Contador de palabras en un archivo de texto: 
+#Escribe un script que solicite al usuario que ingrese el nombre de un archivo de texto 
+#y luego cuente el número de palabras en ese archivo. 
+#Controlar si el archivo de texto existe o no. 
+#---------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui estamos viendo que nos haya pasado dos parametros
 if [[ $# -ne 1 ]];then
