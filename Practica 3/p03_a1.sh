@@ -1,3 +1,7 @@
+#------------------------------- Enunciado --------------------------
+#Desarrollar un script Bash que permita pasar varios usuarios y que devuelva los grupos de cada uno de esos usuarios.
+#--------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui le pongo una variable que quiera guardar en grupos
 if [[ $# -eq 0 ]]; then
