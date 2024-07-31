@@ -1,3 +1,10 @@
+#-------------------------------------- Enunciado -------------------------------
+#Crea un script para automatizar el proceso 
+#para agregar todos los usuarios que pertenecen a un grupo primario específico a un grupo secundario indicado en un sistema Linux. 
+#El usuario puede especificar los nombres de los grupos primario 
+#y secundario como argumentos al ejecutar el script.
+#--------------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui estmos viendo que el usuario nos haya puesto algo diferente a dos
 if  [[ $# -ne 2 ]]; then
