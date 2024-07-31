@@ -1,3 +1,9 @@
+#-------------------------------------------- Enunciado -------------------------------
+#Desarrolla un script que, al recibir como parámetros los nombres de usuario, genere un informe simple mostrando
+#la fecha del último cambio de contraseña para cada uno de los usuarios especificados. 
+#El script utilizará la información del archivo /etc/shadow para obtener estos detalles.
+#--------------------------------------------------------------------------------------
+
 #!/bin/bash
 if [[ $1 -eq 0 ]]; then
 	echo "Uso: $0 <usuarios>
