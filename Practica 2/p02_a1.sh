@@ -1,3 +1,12 @@
+#-------------------------------- Enunciado -------------------------------------
+#Desarrolla un script que solicite al usuario que ingrese el nombre de un directorio. 
+#Si el directorio ya existe, muestra un mensaje de error. 
+#Si el directorio no existe, créalo y muestra un mensaje de confirmación. 
+#Luego, pregunta al usuario si desea crear otro directorio. 
+#Si la respuesta es "s" (sí), el script solicitará nuevamente el nombre de otro directorio. 
+#Si la respuesta es "n" (no), el script finaliza.
+#--------------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui lo que estoy haciendo es dando la variable a S para que pueda entrar a el bucle
 respu="S"
