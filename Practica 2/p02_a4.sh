@@ -1,3 +1,8 @@
+#--------------------------------- Enunciado ----------------------------------
+#Gestión de copias de seguridad: Escribe un script que realice copias de seguridad de un directorio especificado por el usuario. 
+#El script debe comprimir el contenido del directorio en un archivo tar.gz y guardarlo en una ubicación de respaldo.
+#------------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui estoy almacenando la ruta en una variable
 ruta="$HOME/copia/"
