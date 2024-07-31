@@ -1,3 +1,10 @@
+#-------------------------------- Enunciado -------------------------------
+#Desarrolla un script para organizar automáticamente los archivos descargados en el directorio Descargas. 
+#El script identificará el tipo de archivo según su extensión y lo moverá a su respectivo directorio de destino, 
+#como imágenes (jpg, jpeg, png), música(mp3) u otros archivos, 
+#proporcionando una solución eficiente para mantener ordenado el directorio de descargas.
+#--------------------------------------------------------------------------
+
 #!/bin/bash
 # Para este script vamos a tener que crear las carpetas necesarias en el home (linux)
 echo "Vamos a ordenar las descaras"
