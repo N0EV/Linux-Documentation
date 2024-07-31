@@ -1,3 +1,9 @@
+#-------------------------------- Enunciado ------------------------------------------
+#Desarrolla un script Bash que permita al usuario ingresar el nombre de un grupo primario. 
+#El script mostrará todos los usuarios cuyo grupo primario coincida con el grupo ingresado, 
+#proporcionando así una forma rápida de consultar los usuarios asociados a un grupo específico en el sistema.
+#--------------------------------------------------------------------------------------
+
 #!/bin/bash
 # Aqui le estamos diciendo que si no hay ningun parametro
 # que le salga al usuario como tiene que usarlo
